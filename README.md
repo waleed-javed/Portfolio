@@ -1,6 +1,3 @@
-<div align="center">
-  <img alt="Logo" src="https://github.com/saadhaxxan/GatsbyResume/blob/main/src/images/logo.png" width="100" />
-</div>
 <h1 align="center">
   Gatsby Developer Resume
 </h1>
@@ -12,8 +9,6 @@
 </p>
 
 Yes, you can fork this repo. Please give proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
-
-![demo](https://raw.githubusercontent.com/saadhaxxan/GatsbyResume/main/src/images/demo.png)
 
 ## 🛠 Installation & Set Up
 

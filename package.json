@@ -1,15 +1,13 @@
 {
-  "name": "NewResume",
-  "description": "Personal Website",
+  "name": "new-resume-waleed",
+  "description": "",
   "version": "1.0.0",
-  "author": "Saad Hassan <saadhaxxan@ieee.org>",
+  "author": "Waleed Javed <waleedjavied@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/saadhaxxan/NewResume"
+    "url": "https://github.com/waleed-javed/GastbyResume"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": [],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -17,7 +15,8 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build && gh-pages -d public -b main"
   },
   "husky": {
     "hooks": {
@@ -25,12 +24,8 @@
     }
   },
   "lint-staged": {
-    "*.{js,css,json,md}": [
-      "prettier --write"
-    ],
-    "*.js": [
-      "eslint --fix"
-    ]
+    "*.{js,css,json,md}": ["prettier --write"],
+    "*.js": ["eslint --fix"]
   },
   "dependencies": {
     "animejs": "^3.1.0",

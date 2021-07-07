@@ -1,8 +1,8 @@
 ---
-date: '2018-12-29'
-title: 'Awesome Python Projects'
-github: 'https://github.com/saadhaxxan/Awesome-Python-Projects'
-external: ''
+date: "2018-12-29"
+title: "Awesome Python Projects"
+github: "https://github.com/waleed-javed"
+external: ""
 tech:
   - Python
 showInProjects: true
