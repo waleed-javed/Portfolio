@@ -2,9 +2,11 @@
 date: "2018-12-29"
 title: "Awesome Python Projects"
 github: "https://github.com/waleed-javed"
-external: ""
+external: "https://github.com/waleed-javed"
 tech:
   - Python
+  - Arduino
+  - Hardware
 showInProjects: true
 ---
 

@@ -7,5 +7,6 @@ range: "January - Feburary 2020"
 url: "https://interns.pk/"
 ---
 
-- Worked on React Components using multiple other frameworks
-- Developed Dashboards and Web Apps
+- Worked on React Components
+- Completed Design challenges
+- and, Developed Dashboards and Web Apps using React.js

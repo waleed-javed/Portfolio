@@ -2,11 +2,13 @@
 date: "2020-11-12"
 title: ".NET Based module For Task Assignment, Distribution and Management"
 github: "https://github.com/waleed-javed"
-external: ""
+external: "https://github.com/waleed-javed"
 tech:
   - ASP.NET
   - Javascript
   - C#
+  - CSS
+  - Microsoft EF4
 company: "Individual"
 showInProjects: true
 ---

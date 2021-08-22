@@ -5,7 +5,7 @@
   "author": "Waleed Javed <waleedjavied@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/waleed-javed/GastbyResume"
+    "url": "https://github.com/waleed-javed/Portfolio"
   },
   "keywords": [],
   "license": "MIT",
@@ -24,8 +24,12 @@
     }
   },
   "lint-staged": {
-    "*.{js,css,json,md}": ["prettier --write"],
-    "*.js": ["eslint --fix"]
+    "*.{js,css,json,md}": [
+      "prettier --write"
+    ],
+    "*.js": [
+      "eslint --fix"
+    ]
   },
   "dependencies": {
     "animejs": "^3.1.0",

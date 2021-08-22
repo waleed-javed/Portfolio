@@ -116,7 +116,7 @@ const StyledPic = styled.div`
 const About = () => {
   const data = useStaticQuery(graphql`
     query {
-      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me.jpg" }) {
+      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me.png" }) {
         childImageSharp {
           fluid(maxWidth: 500, traceSVG: { color: "#64ffda" }) {
             ...GatsbyImageSharpFluid_withWebp_tracedSVG
@@ -132,7 +132,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'Django', 'React', 'Python', 'Node.js', 'Express', 'Tensorflow', 'Pytorch','DevOps', 'Kotlin', 'Rust', 'Android'];
+  const skills = ['JavaScript (ES6+)', 'React.js', 'Node.js', 'C# ', 'ASP.NET', '.NET Core',  'Python', 'TensorFlow', 'MatLab', 'Arduino'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,20 +141,37 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Saad, a full stack software developer based in Lahore, PK.</p>
+            <p> Hola Amigo! <br/> I'm Waleed, A full-stack engineer based in
+              Lahore, PAK.</p>
 
             <p>
-              I build things on the internet and love building large scale applications with system design in mind. I create large scale deep neural networks to teach machines how to learn. I also develop CI/CD pipelines to automate all the processes of the workflow. i have worked in teams and also individually as a freelancer and got valuable learning experiences.
+              I love building things on the internet such as large scale applications with system design in mind. 
+              I have experienced in-team roles, individual as a freelancer and also as a Help-Buddy and got valuable learning experiences.
+            </p>
+
+            {/* <p>
+              A technologist &amp; techpreneur, specialized in using
+              cutting-edge web &amp; Ai technologies to bring products from
+              concept to a reality, who has been building things on the internet
+              and love building large scale applications with system design in
+              mind.
+            </p> */}
+            <p>
+              I've concluded &quot;Graduate of Computer Science&quot; degree at
+              <a href="https://www.cuiatd.edu.pk/">
+                Comsats University Islamabad, Abbottabad
+              </a>
+              . And have also collaborated amongst engineering and development teams at
+              <a href="https://www.linkedin.com/in/waleed-javed/">
+                various events in Comsats
+              </a>
+              . Where I got the chance to showcase my skills at numerous interesting &amp; meaningful
+              projects as well as management roles.
             </p>
 
             <p>
-              I m still studying in my undergraduate degree at{' '}
-              <a href="https://uol.edu.pk">University Of Lahore</a>, I have worked in
-              engineering, development and research teams at <a href="https://www.linkedin.com/in/saad-haxxan/">Various Companies</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              For Starters, Here are a few technologies I've been working with recently:
             </p>
-
-            <p>Here are a few technologies I've been working with recently:</p>
           </div>
 
           <ul className="skills-list">
@@ -164,7 +181,7 @@ const About = () => {
 
         <StyledPic>
           <div className="wrapper">
-            <Img fluid={data.avatar.childImageSharp.fluid} alt="Avatar" className="img" />
+            <Img fluid={data && data.avatar ? data.avatar.childImageSharp.fluid : ''} alt="Avatar" className="img" />
           </div>
         </StyledPic>
       </div>

@@ -48,18 +48,21 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Saad Hassan</h2>;
-  const three = <h3 className="big-heading">I teach people how to code.</h3>;
+  const two = <h2 className="big-heading">Waleed Javed</h2>;
+  const three = (
+    <h3 className="big-heading">
+      &quot;Innovation distinguishes, leader &amp; a follower.&quot;
+    </h3>
+  );
   const four = (
     <p>
-      A Tech enthusiast with a keen interest in Artificial Intelligence, Cyber security, Cloud
-      Computing and Block Chain. An aspiring Data Scientist with a focus on Python for Machine
-      Learning, Deep learning for computer vision and Natural Language Processing.
+      An Entrepreneaur and Tech enthusiast with a keen interest in Web Development, 
+      Artificial Intelligence and Cloud Computing.
     </p>
   );
   const five = (
     <a href={`mailto:${email}`} className="email-link">
-      Get In Touch
+      Get In Touch!
     </a>
   );
 

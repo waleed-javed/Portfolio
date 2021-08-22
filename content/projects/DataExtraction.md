@@ -2,7 +2,7 @@
 date: "2017-11-01"
 title: "Data Extraction using OpenCV"
 github: "https://github.com/waleed-javed"
-external: ""
+external: "https://github.com/waleed-javed"
 tech:
   - Python
   - OpenCV2

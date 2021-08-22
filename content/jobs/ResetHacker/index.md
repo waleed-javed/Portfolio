@@ -7,4 +7,4 @@ range: "January - Present"
 url: "https://resethacker.com/"
 ---
 
-- Developing smart solutions for fraud detection.
+- Developing smart solutions for e-fraud detection.

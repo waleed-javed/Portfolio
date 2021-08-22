@@ -2,11 +2,13 @@
 date: "2021-06-07"
 title: "Heart Failure chances Detection Using Machine Learning"
 github: "https://github.com/waleed-javed"
-external: ""
+external: "https://github.com/waleed-javed"
 tech:
   - Tensorflow
   - Matlab
   - Python
+  - Arduino
+  - Firebase
 company: "Individual"
 showInProjects: true
 ---
