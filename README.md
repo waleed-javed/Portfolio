@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://app.netlify.com/sites/clever-agnesi-6def2c/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
+    <img src="https://api.netlify.com/api/v1/badges/ef5487c4-8c7f-48f6-a5b8-64026f1e18cb/deploy-status" alt="Netlify Status" />
   </a>
 </p>
 
