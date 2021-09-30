@@ -59,6 +59,15 @@ const Head = ({ title, description, image }) => {
       <meta name="twitter:description" content={seo.description} />
       <meta name="twitter:image" content={seo.image} />
       <meta name="google-site-verification" content="DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk" />
+       {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-3V83N51X7F"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)}
+      gtag('js', new Date());
+
+     gtag('config', 'G-3V83N51X7F');
+      </script>
     </Helmet>
   );
 };
