@@ -183,7 +183,7 @@ const Projects = () => {
 
   return (
     <StyledProjectsSection>
-      <h2 ref={revealTitle}>Other Projects</h2>
+      <h2 ref={revealTitle}>Major Projects</h2>
 
       <TransitionGroup className="projects-grid">
         {projectsToShow &&

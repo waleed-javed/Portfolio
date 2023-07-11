@@ -149,10 +149,10 @@ module.exports = {
       },
     },
     {
-     resolve: `gatsby-plugin-google-gtag`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: [
-          "G-3V83N51X7F",
+          'G-3V83N51X7F',
         ],
         gtagConfig: {
           anonymize_ip: true,

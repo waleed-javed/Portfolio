@@ -227,7 +227,7 @@ const StyledProject = styled.div`
         z-index: 3;
         transition: var(--transition);
         background-color: var(--navy);
-        mix-blend-mode: screen;
+        mix-blend-mode: multiply;
       }
     }
 

@@ -30,7 +30,7 @@ const StyledHeroSection = styled.section`
 
   p {
     margin: 20px 0 0;
-    max-width: 500px;
+    max-width: 800px;
   }
 
   .email-link {
@@ -47,17 +47,16 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Waleed Javed</h2>;
-  const three = (
-    <h3 className="big-heading">
-      &quot;Innovation distinguishes, leader &amp; a follower.&quot;
-    </h3>
-  );
+  const one = <h1>welcome!👋 I'm </h1>;
+  const two = <h2 className="big-heading-hero">Waleed J.</h2>;
+  // const three = (
+  //   <h3 className="big-heading">
+  //     &quot;Innovation distinguishes, leader &amp; a follower.&quot;
+  //   </h3>
+  // );
   const four = (
-    <p>
-      An Entrepreneaur and Tech enthusiast with a keen interest in Web Development, 
-      Artificial Intelligence and Cloud Computing.
+    <p className="big-heading-hero-para">
+      A Solopreneur,<br/> Passionate about Web Dev, AI/ML & Cloud Solutions.
     </p>
   );
   const five = (
@@ -66,7 +65,8 @@ const Hero = () => {
     </a>
   );
 
-  const items = [one, two, three, four, five];
+  // const items = [one, two, three, four, five];
+  const items = [one, two, four, five];
 
   return (
     <StyledHeroSection>

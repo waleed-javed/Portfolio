@@ -1,13 +1,14 @@
-import { createGlobalStyle } from "styled-components";
-import Fonts from "./fonts";
-import TransitionStyles from "./TransitionStyles";
-import PrismStyles from "./PrismStyles";
+import { createGlobalStyle } from 'styled-components';
+import Fonts from './fonts';
+import TransitionStyles from './TransitionStyles';
+import PrismStyles from './PrismStyles';
 
 const GlobalStyle = createGlobalStyle`
   ${Fonts};
 
   :root {
-    /* --dark-navy: #020c1b;
+    /* //init colors 
+    --dark-navy: #020c1b;
     --navy: #0a192f;
     --light-navy: #172a45;
     --lightest-navy: #303C55;
@@ -17,21 +18,35 @@ const GlobalStyle = createGlobalStyle`
     --lightest-slate: #ccd6f6;
     --white: #e6f1ff;
     --green: #64ffda;
-    --green-tint: rgba(100, 255, 218, 0.1); */
+    --green-tint: rgba(100, 255, 218, 0.1);
+    */
 
-    --dark-navy: #020c1b;
-    --navy: #0a192f;
-    --light-navy: #172a45;
-    --lightest-navy: #582841;
-    --navy-shadow: rgba(2, 12, 27, 0.7);
-    --slate: #8892b0;
-    --light-slate: #a8b2d1;
-    --lightest-slate: #ccd6f6;
-    --white: #e6f1ff;
-    --green:#ce8054;
-    --green-tint: #172a45;
+    // Prev styles colors
+    // --dark-navy: #020c1b;
+    // --navy: #0a192f;
+    // --light-navy: #172a45;
+    // --lightest-navy: #582841;
+    // --navy-shadow: rgba(2, 12, 27, 0.7);
+    // --slate: #8892b0;
+    // --light-slate: #a8b2d1;
+    // --lightest-slate: #ccd6f6;
+    // --white: #e6f1ff;
+    // --green: #f57800;//#ce8054;
+    // --green-tint: #172a45;
+   
+    --dark-navy: #330949; // loader background color
+    --navy: #fff; //background color
+    --light-navy: #f49f0a; //F58700; // featured projects description block color
+    --lightest-navy: #330949; //horizontal lines next to headings
+    --navy-shadow:#225684
+    --slate: #002943; // paragraph text color
+    --light-slate: #330942; //tags, chips, side verticals, svg colors
+    --lightest-slate:#330949 ;// heading colors
+    --white: #330949; // heading color for screen <768px
+    --green: #f49f0a; //accent color
+    --green-tint: #33094940; // on button hover color
 
-    --font-sans: 'Calibre', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
+    --font-sans: 'Playfair Display' ,'Calibre', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
     --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
 
     --fz-xxs: 12px;
@@ -184,6 +199,16 @@ const GlobalStyle = createGlobalStyle`
     font-size: clamp(40px, 8vw, 80px);
   }
 
+  .big-heading-hero {
+    margin: 0;
+    font-size: clamp(200px, 8vw, 80px);
+  }
+
+  .big-heading-hero-para{
+    margin: 0;
+    font-size: clamp(30px, 3vw, 20px);   
+  }
+
   .medium-heading {
     margin: 0;
     font-size: clamp(40px, 8vw, 60px);
@@ -255,7 +280,7 @@ const GlobalStyle = createGlobalStyle`
     height: 100%;
     fill: currentColor;
     vertical-align: middle;
-
+ 
     &.feather {
       fill: none;
     }

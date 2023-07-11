@@ -3,7 +3,7 @@ date: "2021-7-26"
 title: "Fullstack Engineer"
 company: "Qabool Hai"
 location: "Lahore, PK"
-range: "July 2021 - Current"
+range: "July 2021 - July 2022"
 url: "https://QaboolHai.com/"
 ---
 

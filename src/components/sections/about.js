@@ -132,7 +132,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'React.js', 'Node.js', 'C# ', 'ASP.NET', '.NET Core',  'Python', 'TensorFlow', 'MatLab', 'Arduino'];
+  const skills = ['JavaScript', 'React.js', 'Angular', 'Node.js', 'AWS Cloud', 'C# ', 'ASP.NET', '.NET Core',  'Python', 'TensorFlow', 'MatLab', 'Arduino', 'Git/GitHub', 'CI/CD', 'WebSocket Programming', 'Reactive & Functional Programming'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,14 +141,12 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p> Hola Amigo! <br/> I'm Waleed, A full-stack engineer based in
-              Lahore, PAK.</p>
 
-            <p>
-              I love building things on the internet such as large scale applications with system design in mind. 
-              I have experienced in-team roles, individual as a freelancer and also as a Help-Buddy and got valuable learning experiences.
+            <p> &nbsp;<a href="https://www.linkedin.com/in/waleed-javed/">&quot;Senior Fullstack Cloud App Engineer&quot; </a>,&nbsp;
+              Building scalable solutions, specializes in cutting-edge web &amp; AI technologies to tranform product concepts in to a living reality!
             </p>
 
+            {/* <p></p> */}
             {/* <p>
               A technologist &amp; techpreneur, specialized in using
               cutting-edge web &amp; Ai technologies to bring products from
@@ -156,21 +154,12 @@ const About = () => {
               and love building large scale applications with system design in
               mind.
             </p> */}
-            <p>
-              I've concluded &quot;Graduate of Computer Science&quot; degree at
-              <a href="https://www.cuiatd.edu.pk/">
-                Comsats University Islamabad, Abbottabad
-              </a>
-              . And have also collaborated amongst engineering and development teams at
-              <a href="https://www.linkedin.com/in/waleed-javed/">
-                various events in Comsats
-              </a>
-              . Where I got the chance to showcase my skills at numerous interesting &amp; meaningful
-              projects as well as management roles.
-            </p>
+            {/* <p>
+              COMSAT &nbsp;  <a href="https://www.cuiatd.edu.pk/"> &quot; Graduate &quot; </a>&nbsp;
+            </p> */}
 
             <p>
-              For Starters, Here are a few technologies I've been working with recently:
+              Building with &#10084;&#65039;
             </p>
           </div>
 

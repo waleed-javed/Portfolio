@@ -1,6 +1,6 @@
 ---
-date: "2021-06-07"
-title: "Heart Failure chances Detection Using Machine Learning"
+date: "2022-06-07"
+title: "Congestive Heart Disease Detection Engine"
 github: "https://github.com/waleed-javed"
 external: "https://github.com/waleed-javed"
 tech:
@@ -13,4 +13,4 @@ company: "Individual"
 showInProjects: true
 ---
 
-Heart Failure Detection on ECG data using machine learning with the help of matlab digital signal processing and neural net libraries.
+A Portable ECG Machine for detection of Congestive Heart Failure Diseases just from ECG using machine learning.

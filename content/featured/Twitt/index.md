@@ -1,7 +1,7 @@
 ---
 date: "1"
-title: "Twitter Clone"
-cover: "./Twitt.PNG"
+title: "Twitther"
+cover: "./Twitt.jpg"
 github: "https://github.com/waleed-javed/twitter-clone"
 tech:
   - NodeJs
@@ -11,4 +11,4 @@ tech:
 showInProjects: true
 ---
 
-This Project is a Twiter clone developed using ReactJS and NodeJs, tested using POSTMAN api testing.
+A thread based platform inspired by twitter. Developed using ReactJS and NodeJs...
