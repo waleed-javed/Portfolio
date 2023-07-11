@@ -1,6 +1,9 @@
-<h1 align="center">
-  Gatsby Developer Resume
-</h1>
+<p align="center">
+  <a href="https://github.com/waleed-javed/AWS-ErpSolution">
+    <img src="https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2021/08/how-to-make-an-online-portfolio.png" alt="cover-img">
+  </a>
+</p>
+
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ef5487c4-8c7f-48f6-a5b8-64026f1e18cb/deploy-status)](https://app.netlify.com/sites/waleedjaved-portfolio/deploys)
 
